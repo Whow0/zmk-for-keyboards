@@ -41,3 +41,12 @@ endchoice
 endif # LVGL
 
 endif
+
+config HID_KEYBOARD
+    default y
+
+config ZMK_BLE
+    default y
+
+config HOGP
+    default y
