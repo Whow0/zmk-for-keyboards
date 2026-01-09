@@ -68,11 +68,11 @@
             //                    |         |         |         |         |         | |      |      |      |       |      |
 
             bindings = <
-&trans  &trans  &trans          &trans          &trans           &trans                                        &trans  &trans          &trans          &trans           &trans  &trans
-&trans  &trans  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &msc SCRL_UP                                  &trans  &trans          &kp UP_ARROW    &trans           &trans  &trans
-&trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN                                &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans  &trans  &trans          &trans          &trans           &trans          &kp C_VOL_UP    &kp C_VOL_DN  &trans  &trans          &trans          &trans           &trans  &trans
-                                &trans          &trans           &trans          &trans          &trans        &trans  &trans          &trans
+&trans      &trans   &trans          &trans          &trans           &trans                                             &trans  &trans          &trans          &trans           &trans  &sys_reset
+&caps_word  &trans   &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &msc SCRL_UP                                       &trans  &trans          &kp UP_ARROW    &trans           &trans  &trans
+&trans      &trans   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN                                     &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans      &kp DEL  &trans          &trans          &trans           &trans          &kp C_VOLUME_DOWN    &kp C_VOL_UP  &trans  &trans          &trans          &trans           &trans  &trans
+                                     &trans          &trans           &trans          &trans               &trans        &trans  &trans          &trans
             >;
         };
 
